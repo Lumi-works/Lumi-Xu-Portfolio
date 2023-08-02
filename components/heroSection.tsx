@@ -44,7 +44,7 @@ function HeroSection() {
       </div>
 
       <div className="flex flex-row items-center text-center justify-center ">
-        <HiArrowDown size={35} />
+        <HiArrowDown size={35} className="animate-bounce" />
       </div>
     </section>
   );
