@@ -19,19 +19,26 @@ function HeroSection() {
         </div>
 
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-6xl">
             Hello, I&#39;m Lumi
           </h1>
-          <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&#39;m a full-time student studying{" "}
-            <span className="font-semibold text-teal-600">
-              Math / Stat / CS{" "}
-            </span>
-            at UIUC. balabalabalba
-          </p>
+          <div className="mt-6">
+            <p className="text-lg mt-4 mb-6 md:text-2xl">
+              I&#39;m a full-time undergraduate majoring{" "}
+              <span className="font-semibold text-sky-500">Math / Stat </span>
+              minoring <span className="font-semibold text-sky-500">CS </span>
+              at University of Illinois at Urbane-Champaign, actively looking
+              for{" "}
+              <span className="font-semibold text-sky-500">
+                24 Summer Intern{" "}
+              </span>
+              Oppertunities
+            </p>
+          </div>
+          <br />
           <Link
             to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-sky-600 rounded shadow hover:bg-sky-700 cursor-pointer"
             activeClass="active"
             spy={true}
             smooth={true}
