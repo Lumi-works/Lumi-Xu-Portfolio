@@ -8,12 +8,12 @@ import SlideUp from "@/components/slideUp";
 
 const projects = [
   {
-    name: "Fire-Chat",
+    name: "Thread-Post",
     description:
-      "A real-time chatting application powered by firebase. A real-time chatting application powered by firebase.",
-    image: "/shaking-hands.GIF",
-    github: "https://github.com/Lumi-works/firebase-mini-chat",
-    link: "/",
+      "A real time communication app that allows you to post  and also comment other people's post. This project was build using Next.js, tailwind css and mongoDB",
+    image: "/thread-post.JPG",
+    github: "https://github.com/Lumi-works/thread-post-project",
+    link: "https://thread-clone-project-p7rfl71n9-lumi-works.vercel.app/thread/64d55d26c7734eea113e9f67",
   },
   {
     name: "Fire-Chat",
@@ -51,7 +51,7 @@ function ProjectSection() {
                   <div className="md:w-1/2 mt-8">
                     <Link href={project.link} target="_blank">
                       <Image
-                        src="/shaking-hands.GIF"
+                        src={project.image}
                         alt=""
                         width={1000}
                         height={1000}
