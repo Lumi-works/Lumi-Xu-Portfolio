@@ -16,12 +16,12 @@ const projects = [
     link: "https://thread-clone-project-p7rfl71n9-lumi-works.vercel.app/thread/64d55d26c7734eea113e9f67",
   },
   {
-    name: "Fire-Chat",
+    name: "Firebase-group-management",
     description:
-      "A real-time chatting application powered by firebase. A real-time chatting application powered by firebase.",
-    image: "/shaking-hands.GIF",
-    github: "https://github.com/Lumi-works/firebase-mini-chat",
-    link: "/",
+      "A group project management system build by React, firebase. It allows users to read, create, update projects and assign teammates and due date to it. User can also filter projects by different categories.",
+    image: "/firechat.JPG",
+    github: "https://github.com/Lumi-works/firebase-project-management",
+    link: "https://firebase-project-management-68i868g4g-lumi-works.vercel.app",
   },
   {
     name: "Fire-Chat",
