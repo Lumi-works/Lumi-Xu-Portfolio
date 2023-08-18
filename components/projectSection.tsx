@@ -24,11 +24,10 @@ const projects = [
     link: "https://firebase-project-management-68i868g4g-lumi-works.vercel.app",
   },
   {
-    name: "Fire-Chat",
-    description:
-      "A real-time chatting application powered by firebase. A real-time chatting application powered by firebase.",
+    name: "TBD",
+    description: "To be determined. To be determined.",
     image: "/shaking-hands.GIF",
-    github: "https://github.com/Lumi-works/firebase-mini-chat",
+    github: "https://github.com/Lumi-works/Lumi-Xu-Portfolio",
     link: "/",
   },
 ];
